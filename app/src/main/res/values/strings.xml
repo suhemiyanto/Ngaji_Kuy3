@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ngaji-Kuy</string>
+    <string-array name="lokasi">
+        <item>Pilih</item>
+        <item>Kedaton</item>
+        <item>Rajabasa</item>
+        <item>Gunung Sulah</item>
+    </string-array>
+</resources>
