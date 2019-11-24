@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,7 +25,7 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-            <TextView
+            <!--<TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
@@ -34,22 +33,22 @@
                 android:text="Nama Lengkap"
                 android:textColor="#000000"
                 android:textSize="15dp"
-                android:textStyle="bold" />
+                android:textStyle="bold" />-->
 
-            <EditText
+            <!--<EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="13dp"
                 android:layout_marginRight="15dp"
                 android:id="@+id/edittextname"
-                android:hint="masukan nama lengkap anda" />
+                android:hint="masukan nama lengkap" />-->
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
-                android:text="Jenis Kelamin"
+                android:text="Senin"
                 android:textColor="#000000"
                 android:textSize="15dp"
                 android:textStyle="bold" />
@@ -59,15 +58,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="13dp"
                 android:layout_marginRight="15dp"
-                android:id="@+id/edittextjk"
-                android:hint="masukan jenis kelamin anda" />
+                android:id="@+id/edittextsenin"
+                android:hint="masukan jam" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
-                android:text="No Hp"
+                android:text="Selasa"
                 android:textColor="#000000"
                 android:textSize="15dp"
                 android:textStyle="bold" />
@@ -77,15 +76,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="13dp"
                 android:layout_marginRight="15dp"
-                android:hint="masukan no hp anda"
-                android:id="@+id/edittextnohp"/>
+                android:id="@+id/edittextselasa"
+                android:hint="masukan jam" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
-                android:text="Alamat"
+                android:text="Rabu"
                 android:textColor="#000000"
                 android:textSize="15dp"
                 android:textStyle="bold" />
@@ -95,8 +94,27 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="13dp"
                 android:layout_marginRight="15dp"
-                android:id="@+id/edittextalamat"
-                android:hint="masukan alamat anda" />
+                android:id="@+id/edittextrabu"
+                android:hint="masukan jam" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Kamis"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/edittextkamis"
+                android:hint="masukan jam" />
+
 
             <Button
                 android:layout_width="match_parent"
@@ -106,7 +124,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/shape"
                 android:gravity="center"
-                android:onClick="simpan"
+                android:id="@+id/simpanbtn"
                 android:text="Simpan"
                 android:textStyle="bold" />
 
@@ -118,8 +136,7 @@
                 android:layout_marginRight="20dp"
                 android:background="@drawable/shape"
                 android:gravity="center"
-                android:onClick="lihatprofil"
-                android:text="Simpan"
+                android:text="tampil"
                 android:textStyle="bold" />
         </LinearLayout>
 

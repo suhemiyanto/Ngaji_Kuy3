@@ -8,8 +8,7 @@
         <stroke
             android:width="3dp"
             android:color="#191970" />
-        <corners
-            android:radius="8dp" />
+        <corners android:radius="0dp" />
 
         <padding
             android:top="8dp"

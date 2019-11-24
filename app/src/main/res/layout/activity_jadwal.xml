@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".JadwalActivity">
+    tools:context="JadwalActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -67,9 +66,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:text="Jam 16.00 Wib"
+                android:id="@+id/edittextsenin"
+                android:text="Jam 16.00 WIB"
                 android:textSize="15dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -85,9 +86,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:text="Jam 16.00 Wib"
+                android:id="@+id/edittextselasa"
                 android:textSize="15dp"
-                android:textStyle="bold"/>
+                android:text="Jam 16.00 WIB"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -103,9 +106,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:text="Jam 16.00 Wib"
+                android:id="@+id/edittextrabu"
                 android:textSize="15dp"
-                android:textStyle="bold"/>
+                android:text="Jam 16.00 WIB"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -121,9 +126,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:text="Jam 16.00 Wib"
+                android:id="@+id/edittextkamis"
                 android:textSize="15dp"
-                android:textStyle="bold"/>
+                android:text="Jam 16.00 WIB"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+            <!--  <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="hasil"
+                  android:textSize="20dp"
+                  android:layout_marginLeft="15dp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="20dp"
+                  android:id="@+id/tvItem"/>-->
 
             <Button
                 android:layout_width="match_parent"
@@ -132,9 +149,10 @@
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="15dp"
                 android:text="Pilih"
-                android:onClick="kemenuguru"
+                android:id="@+id/simpanbtn"
                 android:background="@drawable/shape"
                 android:textStyle="bold"/>
+
         </LinearLayout>
     </ScrollView>
 
