@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfileActivity"
-    android:background="#40e0d0">
+    android:background="#A51D15">
 
 
 
@@ -21,8 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textgb"
-                android:textColor="#000000"
-                android:text="Gak Ngaji Gak Keren"
+                android:text="Profile"
+                android:textColor="#ffffff"
                 android:gravity="center"
                 android:textSize="30dp"
                 android:textStyle="bold"
@@ -46,7 +46,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/gambardiubah"
-                    android:background="@drawable/profill"
+                    android:background="@drawable/profilll"
                     android:padding="0dp" />
             </LinearLayout>
         </LinearLayout>
@@ -57,7 +57,7 @@
                 android:layout_marginTop="20dp"
                 android:text="Nama Lengkap : "
                 android:id="@+id/nameprofile"
-                android:textColor="#000000"
+                android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:textSize="15dp"
                 android:layout_marginLeft="15dp" />
@@ -69,67 +69,13 @@
                 android:layout_marginLeft="13dp"
                 android:layout_marginRight="15dp"/>-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Jenis Kelamin"
-                android:id="@+id/jkprofile"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:layout_marginLeft="15dp" />
-
-            <!--<EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Ikhwan"
-                android:layout_marginLeft="13dp"
-                android:layout_marginRight="15dp"/>-->
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="No Handphone"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:id="@+id/hpprofile"
-                android:textSize="15dp"
-                android:layout_marginLeft="15dp" />
-
-            <!--<EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="082279586217"
-                android:layout_marginLeft="13dp"
-                android:layout_marginRight="15dp"/>-->
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Alamat"
-                android:textStyle="bold"
-                android:id="@+id/alamatprofile"
-                android:textSize="15dp"
-                android:textColor="#000000"
-                android:layout_marginLeft="15dp" />
-
-            <!--<EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Kedaton"
-                android:layout_marginLeft="13dp"
-                android:layout_marginRight="15dp"/>-->
-
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Email"
-                android:textColor="#000000"
+                android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:id="@+id/emailprofile"
                 android:textSize="15dp"

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +8,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#40e0d0">
+        android:background="#A51D15">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,37 +28,102 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/profill"/>
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/bl" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     android:layout_marginTop="30dp">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Rio Andika                                      Ikhwan"
-                        android:textColor="#000000"
+                        android:paddingTop="35dp"
+                        android:text="Bandar Lampung"
                         android:id="@+id/textView"
                         android:textStyle="bold"
                         android:textSize="20dp"
-                        android:paddingTop="25dp"/>
+                        android:textColor="#ffffff" />
 
                 </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="38dp"
+                android:layout_height="4dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/shape5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="mapssatu"
+                        android:src="@drawable/maps" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="carijadwal"
+                        android:src="@drawable/telvon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="webview"
+                        android:src="@drawable/web" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
                 android:textStyle="bold"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginTop="5dp"
-                android:text="Pilih Pengajar"
-                android:onClick="carijadwal"
-                android:background="@drawable/shape"/>
+                android:background="@drawable/shape5" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -74,36 +138,100 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/profill"/>
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/metro" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     android:layout_marginTop="30dp">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Endi Pebriyanto                                      Ikhwan"
+                        android:paddingTop="35dp"
+                        android:text="Metro"
                         android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:id="@+id/textView2"
                         android:textSize="20dp"
-                        android:paddingTop="27dp"/>
+                        android:textColor="#ffffff" />
 
                 </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="38dp"
+                android:layout_height="4dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/shape5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="mapsdua"
+                        android:src="@drawable/maps" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="telvonmetro"
+                        android:src="@drawable/telvon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="webviewmetro"
+                        android:src="@drawable/web" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
                 android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="Pilih Pengajar"
-                android:background="@drawable/shape"/>
+                android:background="@drawable/shape5" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -119,38 +247,104 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/profill"/>
+                        android:layout_marginLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/pringsewu" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     android:layout_marginTop="30dp">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Suratman                                      Ikhwan"
+                        android:paddingTop="35dp"
+                        android:text="Pringsewu"
                         android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:id="@+id/textView3"
                         android:textSize="20dp"
-                        android:paddingTop="28dp"/>
+                        android:textColor="#ffffff" />
 
                 </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="38dp"
+                android:layout_height="4dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/shape5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="mapstiga"
+                        android:src="@drawable/maps" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="telvonpringsewu"
+                        android:src="@drawable/telvon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="webviewpringsewu"
+                        android:src="@drawable/web" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
                 android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="Pilih Pengajar"
-                android:background="@drawable/shape"/>
+                android:background="@drawable/shape5" />
 
         </LinearLayout>
+
 
     </ScrollView>
 

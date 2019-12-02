@@ -7,7 +7,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#40e0d0">>
+        android:background="#A51D15">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:id="@+id/textX"
                 android:text="Pendaftaran"
                 android:textStyle="bold"
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:text="Nama Lengkap"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:textSize="15dp"
                 android:layout_marginLeft="15dp" />
@@ -42,59 +42,7 @@
                 android:layout_marginRight="15dp"
                 android:id="@+id/namadaftar"
                 android:layout_marginLeft="13dp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Jenis Kelamin"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:layout_marginLeft="15dp" />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="masukan jenis kelamin"
-                android:id="@+id/jkdaftar"
-                android:layout_marginRight="15dp"
-                android:layout_marginLeft="13dp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="No Hp"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:layout_marginLeft="15dp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="masukan no hp"
-                android:id="@+id/nohpdaftar"
-                android:layout_marginRight="15dp"
-                android:layout_marginLeft="13dp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Masukan Alamat Lengkap"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:layout_marginLeft="15dp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="masukan alamat lengkap"
-                android:id="@+id/alamatdaftar"
-                android:layout_marginRight="15dp"
-                android:layout_marginLeft="13dp"/>
 
 
             <TextView
@@ -102,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Email"
-                android:textColor="#000000"
+                android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:textSize="15dp"
                 android:layout_marginLeft="15dp" />
@@ -121,7 +69,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Password"
                 android:textStyle="bold"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="15dp"
                 android:layout_marginLeft="15dp" />
 

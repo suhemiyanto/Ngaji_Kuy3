@@ -8,7 +8,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#40e0d0">
+        android:background="#A51D15">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -16,8 +16,8 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="190dp"
-                android:layout_height="150dp"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="30dp"
@@ -33,7 +33,7 @@
                     android:id="@+id/gambar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/proofil"
+                    android:background="@drawable/profilll"
                     android:padding="10dp" />
             </LinearLayout>
 
@@ -46,42 +46,6 @@
                 android:layout_marginTop="30dp"
                 android:ems="10"
                 android:hint="Nama"
-                android:inputType="textPersonName"
-                android:paddingLeft="2dp" />
-
-
-            <EditText
-                android:id="@+id/gantijk"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="8dp"
-                android:ems="10"
-                android:hint="Jenis Kelamin"
-                android:inputType="textPersonName"
-                android:paddingLeft="2dp" />
-
-
-            <EditText
-                android:id="@+id/gantinohp"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="8dp"
-                android:ems="10"
-                android:hint="No Hp"
-                android:inputType="textPersonName"
-                android:paddingLeft="2dp" />
-
-
-            <EditText
-                android:id="@+id/gantialamat"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="8dp"
-                android:ems="10"
-                android:hint="Alamat"
                 android:inputType="textPersonName"
                 android:paddingLeft="2dp" />
 

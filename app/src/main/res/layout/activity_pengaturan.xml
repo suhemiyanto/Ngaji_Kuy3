@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        android:background="#40e0d0">
+        android:background="#A51D15">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
                         android:layout_height="wrap_content"
                         android:onClick="pindahutam"
                         android:paddingBottom="2dp"
-                        android:src="@drawable/profill" />
+                        android:src="@drawable/profilll" />
 
                 </LinearLayout>
 
@@ -89,6 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="25dp"
+                        android:textColor="#FFFFFF"
                         android:text="Beranda"
                         android:textSize="20dp"
                         android:textStyle="bold" />
@@ -105,6 +106,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
                         android:text="Profile"
+                        android:textColor="#FFFFFF"
                         android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -121,6 +123,7 @@
                         android:layout_marginLeft="11dp"
                         android:text="Pengaturan"
                         android:textSize="20dp"
+                        android:textColor="#FFFFFF"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
@@ -130,28 +133,13 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <LinearLayout
-                    android:layout_width="100dp"
-                    android:layout_height="75dp"
-                    android:layout_marginTop="35dp"
-                    android:layout_weight="1">
 
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="70dp"
-                        android:layout_marginLeft="15dp"
-                        android:src="@drawable/gagall" />
+            </LinearLayout>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:paddingTop="20dp"
-                        android:text="Batal Jadwal"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
-                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
             </LinearLayout>
 
@@ -162,53 +150,25 @@
 
                 <LinearLayout
                     android:layout_width="100dp"
-                    android:layout_height="75dp"
-                    android:layout_marginTop="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="25dp"
                     android:layout_weight="1">
 
                     <ImageView
                         android:layout_width="50dp"
-                        android:layout_height="70dp"
+                        android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
-                        android:src="@drawable/suaraa" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:paddingTop="20dp"
-                        android:text="Notifikasi"
-                        android:textColor="#000000"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="100dp"
-                    android:layout_height="75dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_weight="1">
-
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="70dp"
-                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="tentang"
                         android:src="@drawable/aboutt" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:paddingTop="20dp"
+                        android:paddingTop="10dp"
                         android:text="Tentang kami"
-                        android:textColor="#000000"
+                        android:textColor="#ffffff"
                         android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -222,23 +182,25 @@
 
                 <LinearLayout
                     android:layout_width="100dp"
-                    android:layout_height="75dp"
+                    android:layout_height="60dp"
                     android:layout_marginTop="8dp"
                     android:layout_weight="1">
 
                     <ImageView
                         android:layout_width="50dp"
-                        android:layout_height="70dp"
+                        android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
+                        android:background="@drawable/shape5"
+                        android:onClick="bantuan"
                         android:src="@drawable/sarann" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:paddingTop="20dp"
+                        android:paddingTop="10dp"
                         android:text="Bantuan"
-                        android:textColor="#000000"
+                        android:textColor="#ffffff"
                         android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -252,16 +214,17 @@
 
                 <LinearLayout
                     android:layout_width="100dp"
-                    android:layout_height="75dp"
+                    android:layout_height="60dp"
                     android:layout_marginTop="8dp"
                     android:layout_weight="1">
 
-                    <ImageButton
+                    <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
-                        android:background="@drawable/exitt"
-                        android:onClick="logout" />
+                        android:background="@drawable/shape5"
+                        android:onClick="logout"
+                        android:src="@drawable/exitt" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -269,7 +232,7 @@
                         android:layout_marginLeft="10dp"
                         android:paddingTop="10dp"
                         android:text="Logout"
-                        android:textColor="#000000"
+                        android:textColor="#ffffff"
                         android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>

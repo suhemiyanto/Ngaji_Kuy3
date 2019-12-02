@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".splashscreen"
-    android:background="#00FFFF">
+    android:background="#A51D15">
 
     <ImageView
         android:layout_width="250dp"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_marginLeft="65dp"
-        android:src="@drawable/ngajilogo" />
+        android:src="@drawable/logotimm" />
 </LinearLayout>
